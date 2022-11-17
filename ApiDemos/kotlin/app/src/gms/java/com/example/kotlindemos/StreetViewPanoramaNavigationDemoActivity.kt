@@ -40,7 +40,7 @@ class StreetViewPanoramaNavigationDemoActivity : AppCompatActivity() {
     // Santorini, Greece using the Pano ID of the location instead of a LatLng object
     private val santoriniPanoId = "WddsUw1geEoAAAQIt9RnsQ"
     // LatLng with no panorama
-    private val invalid = LatLng(-45.125783, 151.276417)
+    private val invalid = LatLng(0.0, 0.0)
 
     // The amount in degrees by which to scroll the camera
     private val PAN_BY_DEGREES = 30

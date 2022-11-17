@@ -32,7 +32,9 @@ class StreetViewPanoramaBasicDemoActivity : AppCompatActivity() {
         streetViewPanoramaFragment?.getStreetViewPanoramaAsync { panorama ->
             // Only set the panorama to SYDNEY on startup (when no panoramas have been
             // loaded which is when the savedInstanceState is null).
-            savedInstanceState ?: panorama.setPosition(SYDNEY)
+            //savedInstanceState ?: panorama.setPosition(SYDNEY)
+            //UNAL Entrada NQS - 30
+            savedInstanceState ?: panorama.setPosition(LatLng(4.635161, -74.079597))
         }
     }
 
